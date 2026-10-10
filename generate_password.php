@@ -1,0 +1,1 @@
+<?php echo password_hash("@ITINFOACADEMY335600#",PASSWORD_DEFAULT);?>

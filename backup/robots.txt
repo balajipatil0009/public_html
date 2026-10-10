@@ -1,0 +1,42 @@
+# ITINFO ACADEMY - robots.txt
+# https://www.robotstxt.org/
+
+User-agent: *
+Allow: /
+
+# Public pages
+Allow: /index.php
+Allow: /about.php
+Allow: /courses.php
+Allow: /internship.php
+Allow: /gallery.php
+Allow: /apply.php
+Allow: /terms-and-conditions.php
+
+# Static assets
+Allow: /css/
+Allow: /js/
+Allow: /public/
+
+# Block admin and backend
+Disallow: /backend/
+Disallow: /backend/admin/
+
+# Block debug and test files
+Disallow: /debug_*.php
+Disallow: /test_*.php
+
+# Block login/private pages from indexing
+Disallow: /intern-login.php
+Disallow: /intern-dashboard.php
+Disallow: /intern-profile.php
+Disallow: /quiz.php
+Disallow: /quiz-results.php
+Disallow: /forgot-password.php
+Disallow: /complete-registration.php
+Disallow: /generate-certificate.php
+Disallow: /no-enrollment.php
+Disallow: /validator.php
+
+# Sitemap location
+Sitemap: https://itinfoacademy.in/sitemap.xml

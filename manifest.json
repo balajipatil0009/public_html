@@ -1,0 +1,29 @@
+{
+    "name": "ITINFO ACADEMY",
+    "short_name": "ITINFO",
+    "description": "Premier IT Training Institute - Professional courses in Web Development, Data Science, Cybersecurity with 95% placement rate",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#002147",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/public/favicon.ico",
+            "sizes": "48x48",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "/public/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "categories": ["education", "business"],
+    "lang": "en-IN"
+}

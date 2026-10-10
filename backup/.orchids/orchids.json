@@ -1,0 +1,7 @@
+{
+  "projectId": "43482f20-c4f9-4e7a-bd06-cc56edf973a9",
+  "createdAt": 1767865608294,
+  "startupCommands": [
+    "php -S localhost:8000"
+  ]
+}
